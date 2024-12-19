@@ -83,6 +83,7 @@ int main(int argc, char *argv[])
 		part2(input);
 	else {
 		printf("Invalid part\n");
+		rc = 1;
 		goto cleanup;
 	}
 
